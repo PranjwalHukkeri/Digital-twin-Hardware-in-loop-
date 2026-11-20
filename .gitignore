@@ -1,0 +1,29 @@
+
+# Compiled files
+*.exe
+*.o
+*.obj
+*.pyc
+__pycache__/
+
+# Temporary files
+temp/
+temp_check/
+backup/
+*.bak
+
+# Python cache and test artifacts
+.pytest_cache/
+*.log
+
+# MATLAB temporary files
+slprj/
+*.asv
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fmiModelDescription
+    fmiVersion="2.0"
+    modelName="VIRYA_AEB"
+    version="1.0"
+    guid="{7f3c9b21-6a42-4e85-91d7-virya0000001}"
+    description="VIRYA AEB validated five-state FSM"
+    author="VIRYA AEB Project"
+    variableNamingConvention="structured">
+
+    <CoSimulation modelIdentifier="VIRYA_AEB">
+        <SourceFiles>
+            <File name="VIRYA_AEB_main.c"/>
+        </SourceFiles>
+    </CoSimulation>
+
+    <DefaultExperiment
+        startTime="0.0"
+        stepSize="0.05"/>
+
+    <ModelVariables>
+
+        <!-- ================= INPUTS ================= -->
+
+        <ScalarVariable
+            name="Input.ego_speed"
+            valueReference="1000"
+            description="Ego vehicle speed [m/s]"
+            causality="input"
+            variability="discrete">
+            <Real start="1.0"/>
+        </ScalarVariable>
+
+        <ScalarVariable
+            name="Input.target_speed"
+            valueReference="1001"
+            description="Target vehicle speed [m/s]"
+            causality="input"
+            variability="discrete">
+            <Real start="0.0"/>
+        </ScalarVariable>
+
+        <ScalarVariable
+            name="Input.distance"
+            valueReference="1002"
+            description="Distance to target [m]"
+            causality="input"
+            variability="discrete">
+            <Real start="5.0"/>
+        </ScalarVariable>
+
+        <!-- ================= OUTPUTS ================= -->
+
+        <ScalarVariable
+            name="Output.relative_velocity"
+            valueReference="2000"
+            description="Relative velocity V_rel = ego speed - target speed [m/s]"
+            causality="output"
+            variability="discrete"
+            initial="exact">
+            <Real start="1.0"/>
+        </ScalarVariable>
+
+        <ScalarVariable
+            name="Output.TTC"
+            valueReference="2001"
+            description="Time to collision [s]"
+            causality="output"
+            variability="discrete"
+            initial="exact">
+            <Real start="5.0"/>
+        </ScalarVariable>
+
+        <ScalarVariable
+            name="Output.AEB_state"
+            valueReference="2002"
+            description="AEB state: 0 SAFE, 1 WARNING, 2 LEVEL_1, 3 LEVEL_2, 4 LEVEL_3"
+            causality="output"
+            variability="discrete"
+            initial="exact">
+            <Integer start="0"/>
+        </ScalarVariable>
+
+        <ScalarVariable
+            name="Output.desired_deceleration"
+            valueReference="2003"
+            description="Desired braking deceleration [m/s^2]"
+            causality="output"
+            variability="discrete"
+            initial="exact">
+            <Real start="0.0"/>
+        </ScalarVariable>
+
+        <!-- ================= INTERNAL STATE ================= -->
+
+        <ScalarVariable
+            name="Internal.state_time"
+            valueReference="4000"
+            description="Time spent in current AEB state [s]"
+            causality="local"
+            variability="discrete">
+            <Real start="0.0"/>
+        </ScalarVariable>
+
+    </ModelVariables>
+
+    <ModelStructure>
+        <Outputs>
+            <Unknown index="4"/>
+            <Unknown index="5"/>
+            <Unknown index="6"/>
+            <Unknown index="7"/>
+        </Outputs>
+
+        <InitialUnknowns>
+            <Unknown index="4"/>
+            <Unknown index="5"/>
+            <Unknown index="6"/>
+            <Unknown index="7"/>
+        </InitialUnknowns>
+    </ModelStructure>
+
+</fmiModelDescription>

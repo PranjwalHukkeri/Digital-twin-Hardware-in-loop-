@@ -1,0 +1,11 @@
+{
+    "initial_ego_speed_m_s": 1.0,
+    "initial_target_speed_m_s": 0.0,
+    "initial_distance_m": 5.0,
+    "total_simulation_time_s": 9.95,
+    "final_ego_speed_m_s": 0.10000000000000014,
+    "final_distance_m": 0.3300000000000076,
+    "collision_occurred": false,
+    "first_braking_time_s": 2.05,
+    "total_samples": 200
+}

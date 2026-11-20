@@ -1,0 +1,23 @@
+[
+   {
+      "Key": "MetaData",
+      "Value": [
+         {
+            "Key": "ProjectAuthor",
+            "Value": "HP"
+         },
+         {
+            "Key": "ProjectManager",
+            "Value": "v3"
+         },
+         {
+            "Key": "ProjectIdentifier",
+            "Value": "4888e29f77dc49648bda368dafc9069c"
+         },
+         {
+            "Key": "DefaultApplication",
+            "Value": "AnalogSignal"
+         }
+      ]
+   }
+]

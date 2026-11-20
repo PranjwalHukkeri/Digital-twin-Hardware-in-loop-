@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=Application_001.rta
+RTP=1
+
+[1]
+ID=88cc0750-13e5-461a-ab0c-f175e86a322b
+Type=DSRTPC
+ServiceID=1
+TraceFile=AnalogeSignal_2.trc
+

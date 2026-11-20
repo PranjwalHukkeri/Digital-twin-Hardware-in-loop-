@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDescriptionMetaData SchemaVersion="1">
+  <SerializedFileName>Application_001.vdp</SerializedFileName>
+  <IsActive>true</IsActive>
+  <FileName>Application_001.sdf</FileName>
+  <VariableDescriptionSourcePathAndFileName>..\..\configurationDesk\Demo_2\Application_001\Build Results\Application_001.sdf</VariableDescriptionSourcePathAndFileName>
+  <ImportOptions>
+    <DisableLookupDetection>false</DisableLookupDetection>
+  </ImportOptions>
+</VariableDescriptionMetaData>

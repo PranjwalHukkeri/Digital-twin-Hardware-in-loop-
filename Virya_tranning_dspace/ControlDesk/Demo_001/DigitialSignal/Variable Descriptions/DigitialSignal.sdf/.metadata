@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDescriptionMetaData SchemaVersion="1">
+  <SerializedFileName>DigitialSignal.vdp</SerializedFileName>
+  <IsActive>true</IsActive>
+  <FileName>DigitialSignal.sdf</FileName>
+  <VariableDescriptionSourcePathAndFileName>..\..\configurationDesk\Demo_001\DigitialSignal\Build Results\DigitialSignal.sdf</VariableDescriptionSourcePathAndFileName>
+  <ImportOptions>
+    <DisableLookupDetection>false</DisableLookupDetection>
+  </ImportOptions>
+</VariableDescriptionMetaData>

@@ -1,0 +1,23 @@
+[
+   {
+      "Key": "MetaData",
+      "Value": [
+         {
+            "Key": "ProjectAuthor",
+            "Value": "HP"
+         },
+         {
+            "Key": "ProjectManager",
+            "Value": "v3"
+         },
+         {
+            "Key": "ProjectIdentifier",
+            "Value": "ea610e568247484d86ebb49880728f0f"
+         },
+         {
+            "Key": "DefaultApplication",
+            "Value": "Application_001"
+         }
+      ]
+   }
+]

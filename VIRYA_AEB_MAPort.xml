@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PortConfigurations>
+    <MAPortConfig>
+        <SystemDescriptionFile>C:\Users\HP\Documents\dSPACE\ConfigurationDesk\2026-A (26.2)\VIRYA_AEB_HIL\Application_001\Build Results\Application_001.sdf</SystemDescriptionFile>
+        <PlatformName>SCALEXIO</PlatformName>
+    </MAPortConfig>
+</PortConfigurations>

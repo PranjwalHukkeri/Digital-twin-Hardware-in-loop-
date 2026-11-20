@@ -1,0 +1,11 @@
+sweep_type,ego_speed,initial_distance,min_distance,final_ego_speed,collision_status,fsm_state_transitions,total_active_braking_duration
+ego_speed_sweep,1.0,30.0,20.05,1.0,False,0,0.0
+ego_speed_sweep,2.0,30.0,10.1,2.0,False,0,0.0
+ego_speed_sweep,5.0,30.0,1.78,0.5,False,27,2.25
+ego_speed_sweep,10.0,30.0,1.2,0.3,False,18,4.65
+ego_speed_sweep,15.0,30.0,0.835,0.2,False,19,4.0
+initial_distance_sweep,10.0,5.0,0.0,0.0,True,1,1.7
+initial_distance_sweep,10.0,10.0,0.29,0.0,False,11,1.8
+initial_distance_sweep,10.0,15.0,0.555,0.1,False,21,2.7
+initial_distance_sweep,10.0,20.0,0.77,0.2,False,18,3.45
+initial_distance_sweep,10.0,30.0,1.2,0.3,False,18,4.65

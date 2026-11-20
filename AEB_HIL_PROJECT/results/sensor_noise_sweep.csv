@@ -1,0 +1,7 @@
+scenario,noise_std,noise_std_cm,seed,activation_time,ttc_at_activation,minimum_distance,max_braking_deceleration,max_actual_deceleration,braking_response_time,final_ego_speed,collision_status,vehicle_stop_status,state_transition_count,boundary_chattering_detected,triplet_reversal_count,braking_episode_count,total_braking_duration,stopping_distance
+CCR_Stationary_Target,0.0,0.0,42,0.0,2.0,1.02,6.0,6.0,0.0,0.3,False,NOT_STOPPED,14,True,1,5,3.95,
+CCR_Stationary_Target,0.05,5.0,42,0.0,2.001,1.065,6.0,6.0,0.0,0.3,False,NOT_STOPPED,20,True,2,5,4.0,
+CCRm_Moving_Target,0.0,0.0,42,0.0,2.5,1.265,4.0,4.0,0.0,5.2,False,NOT_STOPPED,20,True,2,6,4.1,
+CCRm_Moving_Target,0.05,5.0,42,0.0,2.5015,1.285,4.0,4.0,0.0,5.1,False,NOT_STOPPED,19,True,2,6,4.2,
+CCRb_Braking_Target,0.0,0.0,42,1.85,2.9955,1.31,4.0,4.0,0.0,0.1,False,NOT_STOPPED,14,True,1,3,4.75,
+CCRb_Braking_Target,0.05,5.0,42,1.85,2.9893,1.31,4.0,4.0,0.0,0.1,False,NOT_STOPPED,16,True,2,3,4.75,
